@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pccd"
+version = "0.1.0"
+description = "Repo for talk - PyCon Causal Discovery (pccd)"
+authors = ["Lizzie Silver <lizzie.silver@wsp.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.5"
+causalnex = "^0.12.1"
+causal-learn = "^0.1.3.8"
+tigramite = "^5.2.6.2"
+cdt = "^0.6.0"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
